@@ -23,3 +23,8 @@ exclude:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-include-cache
+  - jekyll-redirect-from
+  - jemoji
