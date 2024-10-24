@@ -16,7 +16,8 @@ exclude:
   - Gemfile.lock
   - node_modules
   - .gitignore
-
+  - vendor/
+  - node_modules/
 # Plugins
 plugins:
   - jekyll-feed
