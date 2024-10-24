@@ -1,0 +1,23 @@
+title: "Rahul Narwar's Website"
+description: "Personal website for showcasing my portfolio and work"
+baseurl: "" # For local development, keep it empty. For GitHub Pages, use "/repo-name"
+url: "https://nahrwahr.github.io" # Your website URL
+
+theme: minima # You can choose other themes too
+
+# Build settings
+markdown: kramdown
+permalink: pretty # Ensures pretty URLs (e.g., /about/ instead of /about.html)
+paginate: 5 # Number of posts per page
+
+# Exclude these from the _site folder
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - .gitignore
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
