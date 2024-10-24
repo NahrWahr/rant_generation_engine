@@ -3,7 +3,7 @@ description: "Personal website for showcasing my portfolio and work"
 baseurl: "" # For local development, keep it empty. For GitHub Pages, use "/repo-name"
 url: "https://nahrwahr.github.io" # Your website URL
 
-theme: gemini # You can choose other themes too
+theme: jekyll-theme-cayman-dark # You can choose other themes too
 
 # Build settings
 markdown: kramdown
